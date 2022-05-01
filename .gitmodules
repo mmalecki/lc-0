@@ -1,0 +1,12 @@
+[submodule "enclosure/catchnhole"]
+	path = enclosure/catchnhole
+	url = https://github.com/mmalecki/catchnhole
+[submodule "enclosure/push-switches"]
+	path = enclosure/push-switches
+	url = https://github.com/mmalecki/openscad-push-switches
+[submodule "enclosure/toggle-switches"]
+	path = enclosure/toggle-switches
+	url = https://github.com/mmalecki/openscad-toggle-switches
+[submodule "enclosure/tht-leds"]
+	path = enclosure/tht-leds
+	url = https://github.com/mmalecki/openscad-tht-leds
