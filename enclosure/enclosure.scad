@@ -16,10 +16,10 @@ module panel_annotations () {
   translate([panel_margin_left, panel_margin_bottom, 0]) {
     translate([0, 13, 0]) color("green") t("POWER");
 
-    translate([20, 4, 0]) color("red") t("ARM");
+    translate([20, 4.5, 0]) color("red") t("ARM");
     translate([20, 13, 0]) color("yellow") t("ARMED");
 
-    translate([w - 2.25 * panel_margin_left, 0, 0])
+    translate([w - 1.95 * panel_margin_left, 0, 0])
       color("red") t("LAUNCH");
   }
 }
@@ -45,8 +45,8 @@ module panel_components () {
     }
 
     // The launch switch:
-    translate([w - 2.25 * panel_margin_left, 8, 0])
-      ps10_push_switch();
+    translate([w - 1.95 * panel_margin_left, 8.5, 0])
+      pbs10_push_switch();
   }
 }
 
