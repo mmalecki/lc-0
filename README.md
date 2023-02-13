@@ -1,4 +1,7 @@
 # `lc-0`
+
+![Case](./docs/case.jpg)
+
 Launch Controller 0 - a simple switch-based model rocket launcher. When I say
 simple, I mean it!
 
