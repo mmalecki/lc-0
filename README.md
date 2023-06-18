@@ -1,9 +1,8 @@
-# `lc-0`
+# Launch Controller 0
+
+Simple switch-based model rocket launcher. When I say simple, I mean it!
 
 ![Case](./docs/case.jpg)
-
-Launch Controller 0 - a simple switch-based model rocket launcher. When I say
-simple, I mean it!
 
 Continuity checking? Yeah, sure, I'll tell you I've heard about it.
 
