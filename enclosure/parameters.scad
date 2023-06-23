@@ -8,7 +8,7 @@ thickness = 1.6;
 panel_margin_bottom = 10;
 panel_margin_left = 14;
 text_size = 3.5;
-text_emboss_d = 0.4;
+text_emboss_d = 0.2;
 
 screw_size = "M3";
 screw_l = 30;

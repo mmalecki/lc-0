@@ -23,5 +23,5 @@ module rect_mounting_bracket (w, l, standoff_d, standoff_height, screw_size, ) {
 
 module rect_mounting_bolts (w, l, screw_size, screw_length, countersink = 0) {
   rect(w, l)
-    bolt(screw_size, screw_length, kind = "countersunk", countersink = countersink);
+    bolt(screw_size, screw_length, kind = "socket_head", countersink = countersink);
 }

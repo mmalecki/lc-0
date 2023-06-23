@@ -46,14 +46,15 @@ module panel_assembly (e, w, l, thickness) {
 }
 
 module panel_print (w, l, thickness) {
-  front_plate(w, l, thickness);
-  translate([ 0, l + print_margin, 0 ]) back_plate(w, l, thickness);
+  if (part == "both" || part == "front")
+    front_plate(w, l, thickness);
+  if (part == "both" || part == "back")
+    translate([ 0, l + print_margin, 0 ]) back_plate(w, l, thickness);
 }
 
 module panel_components () {
-  translate([ standoff_d / 2, standoff_d / 2, 0 ]) rect_mounting_bolts(
-    w - standoff_d, l - standoff_d, screw_size, thickness, countersink = 1
-  );
+  translate([ standoff_d / 2, standoff_d / 2, 0 ])
+    rect_mounting_bolts(w - standoff_d, l - standoff_d, screw_size, thickness);
 
   translate([ panel_margin_left, panel_margin_bottom, 0 ]) {
     translate([ 0, 20, 0 ]) {
