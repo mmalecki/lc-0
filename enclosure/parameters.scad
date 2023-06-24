@@ -31,4 +31,4 @@ power_cable_w = 2;
 power_cable_h = 3;
 
 bottom_height = thickness + standoff_height;
-body_height = h - bottom_height - 1 * thickness;
+body_height = h - bottom_height - 2 * thickness;
